@@ -15,3 +15,9 @@ echo "deb http://deb.anydesk.com/ all main" | sudo tee /etc/apt/sources.list.d/a
 sudo apt update
 sudo apt install anydesk
 echo "waybot123" | sudo anydesk --set-password
+sudo apt install python3-pip
+pip3 install pyrealsense2
+pip3 install pyserial
+sudo apt install python3-pyqt5
+sudo apt-get install python3-opencv
+sudo apt install qtwebengine5-dev
