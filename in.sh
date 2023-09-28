@@ -12,3 +12,5 @@ sudo apt remove brltty
 sudo usermod -a -G tty waybot
 
 sudo usermod -a -G dialout waybot
+sudo apt update
+sudo apt install sox
